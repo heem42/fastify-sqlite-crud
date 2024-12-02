@@ -1,0 +1,14 @@
+{
+    "type": "module",
+    "scripts": {
+        "build": "tsc -p tsconfig.json",
+        "start": "node dist/index.js"
+    },
+    "devDependencies": {
+        "@types/node": "^22.10.1",
+        "typescript": "^5.7.2"
+    },
+    "dependencies": {
+        "sqlite3": "^5.1.7"
+    }
+}
